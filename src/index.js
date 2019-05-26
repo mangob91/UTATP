@@ -1,15 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-import utatpHeader from './components/utatpHeader';
+import {UTATPContainer} from "./container/UTATPContainer";
 
-const App = () => {
+const App = function() {
   return (
     <div>
-      <utatpHeader/>
+      <UTATPContainer/>
     </div>
   );
-}
+};
 
 ReactDOM.render(
   <App/>,
